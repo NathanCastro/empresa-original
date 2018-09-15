@@ -1,0 +1,54 @@
+/*-----------cabeçalho--------------*/
+
+
+
+.container-logo{
+	margin-left: 590px;
+
+}
+
+
+.before-menu ul li{
+	display: inline-block; 	
+}
+
+.menu ul{
+	position: relative;
+	left: 334px;
+	bottom: 36px;
+	width: 754px;
+}
+
+
+.menu ul li{
+	display: inline-block; 
+	padding-left: 34px;
+	font-size: 20px;
+	font-family: Gotham book;
+	
+}
+
+#s{
+	position: relative;
+    left: 1055px;
+    bottom: 75px;
+}
+
+.lupa{
+	position: relative;
+	left: 860px;
+	bottom: 72px;
+}
+
+
+.sacola{
+	position: relative;
+	left: 1243px;
+    bottom: 100px;
+	stroke: #a9a9a9;	
+}
+
+.final{
+    position: relative;
+    bottom: 98px;
+}
