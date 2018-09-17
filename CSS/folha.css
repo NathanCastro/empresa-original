@@ -1,6 +1,9 @@
 /*-----------cabeçalho--------------*/
 
+body{
+	overflow-x: hidden;
 
+}
 
 .container-logo{
 	margin-left: 590px;
@@ -9,6 +12,7 @@
 
 
 .before-menu ul li{
+	
 	display: inline-block; 	
 }
 
@@ -17,6 +21,7 @@
 	left: 334px;
 	bottom: 36px;
 	width: 754px;
+	text-decoration: none;
 }
 
 
@@ -25,6 +30,7 @@
 	padding-left: 34px;
 	font-size: 20px;
 	font-family: Gotham book;
+
 	
 }
 
@@ -33,7 +39,9 @@
     left: 1055px;
     bottom: 75px;
 }
-
+.search{
+	border-bottom: 2px solid #fff;
+}
 .lupa{
 	position: relative;
 	left: 860px;
@@ -51,4 +59,57 @@
 .final{
     position: relative;
     bottom: 98px;
+}
+
+/*------------------ CAROUSEL ---------------------*/
+
+
+
+/* ---------------- FIM CAROUSEL -------------------*/
+
+
+
+/*-------------------- MEIO -----------------------*/
+
+.bread-crumb{
+	position: relative;
+    bottom: 118px;
+    background:yellow;
+}
+
+.bread-crumb ul{
+display: inline-flex;
+    		
+}
+
+.product{
+	background: red;
+	position: relative;
+	bottom: 118px;
+}
+
+#fotoM{
+	position: relative;
+    left: 170px;
+    bottom: 425px;
+}
+
+.produto-nome{
+	font-family: Gotham bold;
+	font-style: regular;
+	font-size: 26px;
+	line-height: 37px;
+	Align: left;
+	color: #202020;
+}
+
+.compra-box{
+	border: 3px solid #00FFFF;
+	width: 444px;
+	height: 533px;
+	float: right;   
+    position: relative;
+    bottom: 971px;
+    left: 100px;
+}
 }
