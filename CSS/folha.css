@@ -2,9 +2,16 @@
 
 body{
 	overflow-x: hidden;
-
 }
 
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type:none;
+}
+
+/*----------------------------MENU---------------------------------*/
 .container-logo{
 	margin-left: 590px;
 
@@ -59,22 +66,15 @@ body{
 .final{
     position: relative;
     bottom: 98px;
+    margin-bottom: 14px;
 }
+/*----------------------------FINAL MENU---------------------------------*/
 
-/*------------------ CAROUSEL ---------------------*/
-
-
-
-/* ---------------- FIM CAROUSEL -------------------*/
-
-
-
-/*-------------------- MEIO -----------------------*/
+/*----------------------------INICIO MAIN---------------------------------*/
 
 .bread-crumb{
 	position: relative;
-    bottom: 118px;
-    background:yellow;
+    bottom: 118px;   
 }
 
 .bread-crumb ul{
@@ -82,10 +82,27 @@ display: inline-flex;
     		
 }
 
+.vertical2{
+	top: 66px;      
+    position: relative;
+    margin: 0px 57px;
+    padding-top: 41px;
+
+}
+.row-setaT{
+	padding-left: 30px;
+    padding-bottom: 14px;  
+    
+}
+.row-setaD{
+	padding-left: 20px;
+}
+
 .product{
-	background: red;
+	
 	position: relative;
 	bottom: 118px;
+	
 }
 
 #fotoM{
@@ -94,22 +111,553 @@ display: inline-flex;
     bottom: 425px;
 }
 
-.produto-nome{
-	font-family: Gotham bold;
-	font-style: regular;
+.banner{
+
+
+    position: relative;
+    bottom: 55px;
+    left: 94px;
+}
+
+
+.compra-box{
+	border: 2px solid #D2E1DF;
+    width: 444px;
+    height: 533px;
+    float: right;
+    position: relative;
+    bottom: 1026px;
+    right: 100px;
+    padding: 2px 38px;
+    border-radius: 3px;
+}
+
+
+.produtoNome{
 	font-size: 26px;
-	line-height: 37px;
-	Align: left;
+	color: #202020;
+	font-family: Gotham bold;
+	
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.referencia-produto{
+	padding-bottom: 31px;
+    color: #202020;
+}
+
+.reduzir{
+	color: #E35442;
+	font-family: Open Sans;
+	font-style: 14px;
+}
+
+.price{
+	font-family: Gotham Bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: #686868;
+}
+
+.parcelado{
+	font-family: Open Sans;
+	font-size: 12px;
+	line-height: 20px;
+	color: #7F7F7F;
+}
+
+.cor{
+	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 23px;
 	color: #202020;
 }
 
-.compra-box{
-	border: 3px solid #00FFFF;
-	width: 444px;
-	height: 533px;
-	float: right;   
+.tamanho{
+	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 23px;
+	color: #202020;
+}
+
+.numeros{
+	margin-bottom: 74px;
+}
+
+.adicionar{
+	font-family: Open Sans;
+	font-size: 18px;
+	line-height: 29px;
+	color: #fff;
+	border-radius: 3px;
+	background: #32917B;
+	height: 60px;
+	width: 404.89px;
+	margin-bottom: 21px;
+}
+.descricao{
+	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 29px;
+	color: #202020;
+	height: 60px;
+	width: 404.89px;
+	margin-bottom: 36px;
+}
+
+
+
+/*----------------------------FIM MAIN---------------------------------*/
+
+
+/*-----------------------------Inicio prateleira --------------------------*/
+.prateleira{
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+.titulo-produto{
+	color: red;
+}
+
+.owl-carousel{
+	margin: 2rem 0;
+}
+
+.owl-estagio-outro{
+	position: relative;
+    overflow: hidden;
+}
+
+.owl-estagio{
+	transform: translate3d(-1176px, 0px, 0px);
+    transition: all 0.5s ease 0s;
+}
+
+.item{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.owl-item{
+	width: 186px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.centro{
+	text-align: center;
+}
+
+.olw-item1{
+	display: inline-block;
+    
+}
+.olw-item2{
+	display: inline-block;
+    
+}
+.olw-item3{
+	display: inline-block;
+    
+}
+.olw-item4{
+	display: inline-block;
+    
+}
+
+
+.item{
+	height: 10rem;
+    padding: 1rem;
+    margin-top: 0rem;  
+
+}
+
+.foto1{
+	
+	width: 125px;
+    height: 119px;
+
+}
+
+.foto2{
+	
+	width: 125px;
+    height: 119px;
+}
+
+.foto3{
+	
+	width: 125px;
+    height: 119px;
+}
+
+.foto4{
+	
+	width: 125px;
+    height: 119px;
+}
+
+/*---------------------------- FIM PRATELEIRA -------------------------*/
+
+/* ---------------------------- INICIO FOOTER-TOP -------------------------*/
+.menu-bloco{
+    
+    width: 100%;
+    margin-left: 210px;
+    float: left;
+}
+.footer-container{
+	height: 230px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative
+    width:1214.09px;
+    height: 230px;
+   
+
+}
+
+.footer-top{
+	float: left;
+	height: 140px;
+	width: 961px;
+	
+}
+
+.footer-menu{
+    max-width: 75%;
+    padding-left: 30px;
+    width: 720px;
+    height: 140px;
+    
+   
+}
+
+.footer{
+	border-top: 2px solid #AEB6C1;
+
+}
+
+
+.titulo1{
+	display: block;
+    border-top: 0;
+    padding-left: 0;
+    height: 30px;
+    line-height: 17px;
+    font-family: Gotham Bold;
+    font-size: 12px;
+    color: #AEB6C1;    
     position: relative;
-    bottom: 971px;
-    left: 100px;
+    top: 25px;
 }
+
+.footer-lista-institucional{
+	display: block;
+    padding: 0 0 5px 0;
 }
+
+.titulo2{
+	display: block;
+    border-top: 0;
+    padding-left: 0;
+    height: 30px;
+    line-height: 17px;
+    font-family: Gotham Bold;
+    font-size: 12px;
+    color: #AEB6C1;    
+    position: relative;
+    top: 25px;
+}
+
+.footer-lista-info{
+	display: block;
+    padding: 0 0 5px 0;
+}
+
+.titulo3{
+	display: block;
+    border-top: 0;
+    padding-left: 0;
+    height: 30px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #AEB6C1;
+    position: relative;
+    top: 25px;
+}
+
+.footer-item{
+	color: #202020;
+	font-size: 14px;
+	line-height: 42px;
+	font-family: Open Sans;
+}
+
+.footer-lista-conheca{
+	display: block;
+    padding: 0 0 5px 0;
+}
+
+.institucional{
+	    margin-left: 116px;
+	display: inline-block;
+}
+
+.informacoes{
+	display: inline-block;
+	    margin-left: 55px;
+}
+.conheca{
+	display: inline-block;
+	    margin-left: 74px;
+
+}
+
+
+.footer-bloco-newsletter{
+	
+	width: auto !important;
+    margin: 0;
+    position: absolute;
+    top: 290%;
+    right: 33px;
+}
+
+.footer-newsletter{   
+	max-width: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #AEB6C1;
+    width: 293px;
+    height: 293px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.newsletter{
+	float: left;
+    width: 100%;
+    flex: 1 0 100%;
+
+}
+
+.newsletter-titulo{
+    color: #202020;
+    margin-top: 20px;
+    padding: 0;
+    font-family: "Gotham Bold";
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.formulario{
+	max-width: 80%;
+    margin: 0 auto;
+    padding: 0
+}
+
+.news-nome{
+	position: relative;
+    font-family: Gotham Book;
+    margin-top: 15px;
+}
+
+#nome{
+	display: block;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #AEB6C1;
+    padding: 10px 0 5px 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-family: Gotham Book;
+}
+.news-nome label{
+	position: absolute;
+    top: 10%;
+    left: 0;
+    
+    color: #7f7f7f;
+}
+
+.news-email{
+	position: relative;
+    font-family: Gotham Book;
+    margin-top: 15px;
+}
+
+#email{
+	display: block;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #AEB6C1;
+    padding: 10px 0 5px 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-family: "Gotham Book"
+}
+
+.news-email label{
+	position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #7f7f7f;
+}
+
+.receba{
+	display: block;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #AEB6C1;
+    padding: 10px 0 5px 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-family: Gotham Book;
+}
+
+.news-botao{
+	text-align: center;
+}
+
+.newsletter-botao{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.botao{
+    position: relative;
+    display: inline-block;
+    font-family: Gotham Bold;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;    
+    color: #fff;
+    background: #de8f75;
+    padding: 16.5px 30px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 0; 
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    transition: all .3s linear;
+    z-index: 0;
+    top: 18px;
+}
+
+.footer-meio{
+	float: left;
+	
+}
+
+.footer-grupo{
+
+    float: left;
+    width: 100%;
+    flex: 1 0 100%;
+    
+    position: relative;
+    bottom: 189px;
+}
+
+.footer-social{
+	justify-content: flex-start;
+	margin-bottom: 46px;
+}
+
+.footer-face{
+	padding: 15px;
+	display: inline-block;
+	color: #DE8F75
+}
+
+.footer-insta{
+	padding: 15px;
+	display: inline-block;
+}
+
+.footer-pinterest{
+	padding: 15px;
+	display: inline-block;
+}
+
+.footer-social i {
+    font-size: 25px;
+    color: #de8f75;
+    
+}
+
+.footer-logo{
+	
+}
+.logo-vtex{
+	display: inline-block;
+	
+}
+
+.logo-selo{
+		display: inline-block;
+		padding-left: 34px;
+
+}
+/* ---------------------------------- FIM FOOTER-TOP --------------------------------------*/
+
+
+/* ---------------------------------- INICIO FOOTER-BOTTOM --------------------------------*/
+
+.info{
+	background: #DE8F75;
+    width: 1323px;
+    height: 60px;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    padding-left: 162px;
+}
+
+.logo-down{     
+    
+    width: 120px;   
+    position: relative;
+    left: 1080px;
+    bottom: 41px;
+}
+
+
+/* ---------------------------------- FIM FOOTER-BOTTOM --------------------------------*/
