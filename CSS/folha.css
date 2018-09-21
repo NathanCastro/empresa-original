@@ -1,7 +1,23 @@
-/*-----------cabeçalho--------------*/
+
+
+/*----------------------------INICIO MENU---------------------------------*/
+html{
+	width: 1498px;	
+	height: 1631px;	
+}
 
 body{
-	overflow-x: hidden;
+	overflow-x: hidden;	
+	margin-top:0;
+	margin-left:auto;
+ 	margin-bottom:0;
+ 	margin-right:auto;
+ 	height: 1631px;  	
+}
+
+#container{
+	width: 1498px;	
+	height: 1631px;		
 }
 
 a{
@@ -11,114 +27,275 @@ li{
 	list-style-type:none;
 }
 
-/*----------------------------MENU---------------------------------*/
+
+header{	
+	width:1498px;
+	height: 112px;
+	border-bottom: 1px solid #CCCCCC;	
+}
+
+.top-box{
+	width:1498px;
+	height: 53px;
+	
+}
+
 .container-logo{
 	margin-left: 590px;
-
+    padding-top: 13px;
+    width: 151px;
 }
 
-
-.before-menu ul li{
-	
-	display: inline-block; 	
+.middle-menu{	
+	height: 35px;
+	width: 1498px;
+	border-top: 1px solid #CCCCCC;
+}
+.container-middle{
+	height: 35px;
 }
 
-.menu ul{
-	position: relative;
-	left: 334px;
-	bottom: 36px;
-	width: 754px;
-	text-decoration: none;
+.menu{
+	width: 509px;
+	padding-left: 376px;
+    position: relative;
+    top: 7px;    
 }
-
 
 .menu ul li{
 	display: inline-block; 
 	padding-left: 34px;
-	font-size: 20px;
-	font-family: Gotham book;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Gotham book;	
+}
 
-	
+.before-menu{
+	width: 172px;
+    position: relative;
+    bottom: 30px;
+    left: 9px;
+}
+
+.before-menu ul li{
+	font-size: 12px;
+	display: inline-block; 	
+}
+
+.formulario{
+	width: 260px;
+	height: 25px;
+	position: relative;
+    left: 1034px;
+    bottom: 68px;
+}
+
+form{
+	display: inline-block; 	
 }
 
 #s{
+	display: inline-block;
 	position: relative;
-    left: 1055px;
-    bottom: 75px;
-}
-.search{
-	border-bottom: 2px solid #fff;
-}
-.lupa{
-	position: relative;
-	left: 860px;
-	bottom: 72px;
+    bottom: 4px;
+    right: 37px;
+    font-size: 12px;
+    border-bottom: 1px solid #686868;
+	border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: open Sans;	
 }
 
+.lupa{
+	display: inline-block;
+}
 
 .sacola{
-	position: relative;
-	left: 1243px;
-    bottom: 100px;
-	stroke: #a9a9a9;	
-}
-
-.final{
+    display: inline-block;
     position: relative;
-    bottom: 98px;
-    margin-bottom: 14px;
+    left: 186px;		
 }
-/*----------------------------FINAL MENU---------------------------------*/
+/*----------------------------FIM MENU---------------------------------*/
 
-/*----------------------------INICIO MAIN---------------------------------*/
 
-.bread-crumb{
+/*----------------------------INICIO MAIN------------------------------*/
+
+main{
+	width: 1498px;
+	height: 630px;	
 	position: relative;
-    bottom: 118px;   
-}
-
-.bread-crumb ul{
-display: inline-flex;
-    		
-}
-
-.vertical2{
-	top: 66px;      
-    position: relative;
-    margin: 0px 57px;
-    padding-top: 41px;
-
-}
-.row-setaT{
-	padding-left: 30px;
-    padding-bottom: 14px;  
+    bottom: 16px;
     
 }
-.row-setaD{
-	padding-left: 20px;
+
+.container-main{
+	height: 600px;
+	
+}
+
+/*----------------------------- grid 1 ---------------------------------*/
+.bread-crumb ul li{
+	display: inline-flex;
+    font-size: 12px;
+    font-family: Gotham bold, Open Sans;
+    color: #AEB6C1;
+    margin-left: 9px;
+    margin-top: 17px;		
 }
 
 .product{
-	
-	position: relative;
-	bottom: 118px;
-	
+	margin-left: 60px;
+	width: 48px;
+
 }
 
-#fotoM{
+.apresentação{
+    width: 47px;    
+}
+
+.player{
+	font-family: Open Sans;
+	font-size: 12px;
+	line-height: 20px;
+	color: #DE8F75;
+	margin-left: 6px;
+}
+
+.midia{
+    margin-left: 8px;
+}
+
+.container-slide{
+    display: inline-block;
+    margin-left: 37px;
+    padding-top: 36px;
+    line-height: 26px;    
+    margin-bottom: 77px;
+    height: 438px;
+
+}
+/*------------to aqui começo do slide menor ---------*/
+#carousel-pager{
+	width: 95px;
+   
+}
+.arrow-up{
 	position: relative;
-    left: 170px;
-    bottom: 425px;
+    left: 35px;
+    bottom: 9px;
+}
+.arrow-down{
+	position: relative;
+    left: 31px;
+    bottom: 6px;
+}
+.carousel-inner.vertical {
+  height: ; 
+  padding-left: 9px;
+  margin-bottom: 3px;
+}
+.carousel-inner.vertical > .item {
+  -webkit-transition: .6s ease-in-out top;
+  -o-transition: .6s ease-in-out top;
+  transition: .6s ease-in-out top;
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+  .carousel-inner.vertical > .item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
+  .carousel-inner.vertical > .item.next,
+  .carousel-inner.vertical > .item.active.right {
+    -webkit-transform: translate3d(0, 33.33%, 0);
+    transform: translate3d(0, 33.33%, 0);
+    top: 0;
+  }
+  .carousel-inner.vertical > .item.prev,
+  .carousel-inner.vertical > .item.active.left {
+    -webkit-transform: translate3d(0, -33.33%, 0);
+    transform: translate3d(0, -33.33%, 0);
+    top: 0;
+  }
+  .carousel-inner.vertical > .item.next.left,
+  .carousel-inner.vertical > .item.prev.right,
+  .carousel-inner.vertical > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    top: 0;
+  }
+}
+
+.carousel-inner.vertical > .active {
+  top: 0;
+}
+.carousel-inner.vertical > .next,
+.carousel-inner.vertical > .prev {
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+.carousel-inner.vertical > .next {
+  left: 0;
+  top: 33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .prev {
+  left: 0;
+  top: -33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .next.left,
+.carousel-inner.vertical > .prev.right {
+  top: 0;
+}
+.carousel-inner.vertical > .active.left {
+  left: 0;
+  top: -33.33%;
+  right:0;
+}
+.carousel-inner.vertical > .active.right {
+  left: 0;
+  top: 33.33%;
+  right:0;
+}
+
+#carousel-pager .carousel-control.left {
+    bottom: initial;
+    width: 100%;
+}
+#carousel-pager .carousel-control.right {
+    top: initial;
+    width: 100%;
+}
+
+/*------------------------------ FINAL GRID 1 ----------------------------*/ 
+
+/*------------------------------ INICIO GRID 2 ----------------------------*/ 
+
+#ilustracao{
+    display: inline-block;
+    margin-left: 206px;
+    position: relative;
+    bottom: 612px;
+    height: 556px;
+    width: 1160px;
 }
 
 .banner{
-
-
-    position: relative;
-    bottom: 55px;
-    left: 94px;
+	margin-right: 730px;
 }
+/*------------------------------ FINAL GRID 2 ----------------------------*/
 
+
+/*------------------------------ INICIO GRID 3 ----------------------------*/
 
 .compra-box{
 	border: 2px solid #D2E1DF;
@@ -126,10 +303,10 @@ display: inline-flex;
     height: 533px;
     float: right;
     position: relative;
-    bottom: 1026px;
-    right: 100px;
-    padding: 2px 38px;
+    bottom: 562px;
+    padding: 2px;
     border-radius: 3px;
+    display: inline-block;
 }
 
 
@@ -137,7 +314,7 @@ display: inline-flex;
 	font-size: 26px;
 	color: #202020;
 	font-family: Gotham bold;
-	
+    padding-left: 20px;
 	font-weight: bold;
 	margin-top: 15px;
 }
@@ -145,12 +322,19 @@ display: inline-flex;
 .referencia-produto{
 	padding-bottom: 31px;
     color: #202020;
+    padding-left: 20px;
 }
 
 .reduzir{
 	color: #E35442;
 	font-family: Open Sans;
 	font-style: 14px;
+	   
+
+}
+
+.preco{
+	padding-left: 20px;
 }
 
 .price{
@@ -158,6 +342,7 @@ display: inline-flex;
 	font-size: 20px;
 	line-height: 28px;
 	color: #686868;
+	 
 }
 
 .parcelado{
@@ -166,12 +351,22 @@ display: inline-flex;
 	line-height: 20px;
 	color: #7F7F7F;
 }
+.seletor{
+	position: relative;
+    right: 20px;
+}
 
 .cor{
 	font-family: Open Sans;
 	font-size: 14px;
 	line-height: 23px;
 	color: #202020;
+	height: 15px;
+    margin-left: 256px;
+}
+
+.cor-bola{
+	padding-left: 15px;
 }
 
 .tamanho{
@@ -179,10 +374,13 @@ display: inline-flex;
 	font-size: 14px;
 	line-height: 23px;
 	color: #202020;
+	padding-left: 4px;
+	margin-left: 274px;
 }
 
 .numeros{
 	margin-bottom: 74px;
+	padding-left: 49px;
 }
 
 .adicionar{
@@ -195,169 +393,92 @@ display: inline-flex;
 	height: 60px;
 	width: 404.89px;
 	margin-bottom: 21px;
+    margin-left: 20px;
 }
 .descricao{
 	font-family: Open Sans;
 	font-size: 14px;
 	line-height: 29px;
 	color: #202020;
-	height: 60px;
+	height: 40px;
 	width: 404.89px;
 	margin-bottom: 36px;
+	margin-left: 24px;
 }
+/*------------------------------ FIM GRID 3 ----------------------------*/
 
 
 
-/*----------------------------FIM MAIN---------------------------------*/
+/*-------------------------- INICIO PRATELEIRA---------------------------*/
 
-
-/*-----------------------------Inicio prateleira --------------------------*/
-.prateleira{
-	width: 100%;
-	height: 100%;
-	background: black;
-}
-
-.titulo-produto{
-	color: red;
-}
-
-.owl-carousel{
-	margin: 2rem 0;
-}
-
-.owl-estagio-outro{
+.prateleira-container{
+	width: 1498px;
+	height: 570px;	
 	position: relative;
-    overflow: hidden;
+    bottom: 14px;
 }
 
-.owl-estagio{
-	transform: translate3d(-1176px, 0px, 0px);
-    transition: all 0.5s ease 0s;
+.prateleira-row{
+	width: 1498px;
+	height: 20px;
+	color: pink;
 }
 
-.item{
-	display: inline-block;
-	padding: 1rem;
-}
-
-.owl-item{
-	width: 186px;
-    margin-right: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.centro{
+.prateleira-row h2{
 	text-align: center;
+    padding-top: 10px;
+    font-family: gotham book;
+    font-size: 26px;
+    line-height: 37px;
+    color: #DE8F75;
+
 }
 
-.olw-item1{
+.active {
 	display: inline-block;
-    
-}
-.olw-item2{
-	display: inline-block;
-    
-}
-.olw-item3{
-	display: inline-block;
-    
-}
-.olw-item4{
-	display: inline-block;
-    
-}
 
+}
 
 .item{
-	height: 10rem;
-    padding: 1rem;
-    margin-top: 0rem;  
-
+display: inline-block;
 }
 
-.foto1{
-	
-	width: 125px;
-    height: 119px;
-
+.carousel-inner2{
+    margin-left: 124px;
+    margin-top: 50px;
+    padding-left: 15px;
 }
 
-.foto2{
-	
-	width: 125px;
-    height: 119px;
+
+/*-------------------------- FIM PRATELEIRA---------------------------*/
+
+/*-------------------------- INICIO FOOTER---------------------------*/
+
+footer{
+	width: 1498px;
+	height: 311px;
+ 	border-top: 2px solid #AEB6C1;
+    position: relative;
+    bottom: 15px;
 }
 
-.foto3{
-	
-	width: 125px;
-    height: 119px;
-}
-
-.foto4{
-	
-	width: 125px;
-    height: 119px;
-}
-
-/*---------------------------- FIM PRATELEIRA -------------------------*/
-
-/* ---------------------------- INICIO FOOTER-TOP -------------------------*/
-.menu-bloco{
-    
-    width: 100%;
-    margin-left: 210px;
-    float: left;
-}
-.footer-container{
-	height: 230px;
-    max-width: 90%;
+.footer-container{    
     margin: 0 auto;
-    position: relative
-    width:1214.09px;
+    width:1498px;
     height: 230px;
-   
-
+    
 }
 
-.footer-top{
-	float: left;
-	height: 140px;
-	width: 961px;
-	
-}
 
-.footer-menu{
-    max-width: 75%;
+
+.footer-menu{   
     padding-left: 30px;
     width: 720px;
-    height: 140px;
-    
-   
+    margin-left: 367px;
+    position: relative;
+    top: 26px;
+    height: 200px;
 }
-
-.footer{
-	border-top: 2px solid #AEB6C1;
-
-}
-
 
 .titulo1{
 	display: block;
@@ -370,6 +491,7 @@ display: inline-flex;
     color: #AEB6C1;    
     position: relative;
     top: 25px;
+    
 }
 
 .footer-lista-institucional{
@@ -434,48 +556,95 @@ display: inline-flex;
 
 }
 
-
-.footer-bloco-newsletter{
+.footer-meio{
+	height: 0px;
+    width: 188px;
 	
-	width: auto !important;
-    margin: 0;
-    position: absolute;
-    top: 290%;
-    right: 33px;
+}
+
+.footer-grupo{
+    position: relative;
+    bottom: 189px;
+    width: 188px;
+    right: 341px;
+    
+}
+
+.footer-social{
+	justify-content: flex-start;
+	margin-bottom: 46px;
+}
+
+.footer-face{
+	padding: 15px;
+	display: inline-block;
+	color: #DE8F75
+}
+
+.footer-insta{
+	padding: 15px;
+	display: inline-block;
+}
+
+.footer-pinterest{
+	padding: 15px;
+	display: inline-block;
+}
+
+.footer-social i {
+    font-size: 25px;
+    color: #de8f75;
+    
+}
+
+.logo-vtex{
+	display: inline-block;	
+}
+
+.logo-selo{
+	display: inline-block;
+	padding-left: 34px;
+
+}
+
+.footer-bloco-newsletter{	
+	float: left;
+	position: relative;
+    left: 773px;
+    float: left;
+    bottom: 320px;
+    width: 315px;
+
 }
 
 .footer-newsletter{   
-	max-width: 100%;
+	
     border-radius: 50%;
     background-color: #fff;
     border: 2px solid #AEB6C1;
-    width: 293px;
-    height: 293px;
-    background-color: #fff;
-    align-items: center;
+    width: 304px;
+    height: 310px;
+    
 }
 
 .newsletter{
 	float: left;
     width: 100%;
     flex: 1 0 100%;
-
 }
 
 .newsletter-titulo{
     color: #202020;
-    margin-top: 20px;
+    margin-top: 34px;
     padding: 0;
     font-family: "Gotham Bold";
     font-size: 16px;
     text-align: center;
-
+    height: 18px;
 }
 
-.formulario{
-	max-width: 80%;
-    margin: 0 auto;
-    padding: 0
+.formulario2{
+	margin-left: 71px;
 }
 
 .news-nome{
@@ -486,7 +655,7 @@ display: inline-flex;
 
 #nome{
 	display: block;
-    width: 100%;
+    
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -580,84 +749,47 @@ display: inline-flex;
     top: 18px;
 }
 
-.footer-meio{
-	float: left;
-	
-}
-
-.footer-grupo{
-
-    float: left;
-    width: 100%;
-    flex: 1 0 100%;
-    
-    position: relative;
-    bottom: 189px;
-}
-
-.footer-social{
-	justify-content: flex-start;
-	margin-bottom: 46px;
-}
-
-.footer-face{
-	padding: 15px;
-	display: inline-block;
-	color: #DE8F75
-}
-
-.footer-insta{
-	padding: 15px;
-	display: inline-block;
-}
-
-.footer-pinterest{
-	padding: 15px;
-	display: inline-block;
-}
-
-.footer-social i {
-    font-size: 25px;
-    color: #de8f75;
-    
-}
-
-.footer-logo{
-	
-}
-.logo-vtex{
-	display: inline-block;
-	
-}
-
-.logo-selo{
-		display: inline-block;
-		padding-left: 34px;
-
-}
 /* ---------------------------------- FIM FOOTER-TOP --------------------------------------*/
 
 
-/* ---------------------------------- INICIO FOOTER-BOTTOM --------------------------------*/
+
+/* --------------------------------- INICIO FOOTER-BOTTOM --------------------------------*/
+.footer-bottom{
+    width: 1501px;
+	position: relative;
+    right: 400px;
+    top: 4px;
+
+}
+
 
 .info{
-	background: #DE8F75;
-    width: 1323px;
-    height: 60px;
+	background: #DE8F75;    
+    height: 80px;
     font-family: Open Sans;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 10px;
     color: #fff;
-    padding-left: 162px;
-}
-
-.logo-down{     
-    
-    width: 120px;   
+    bottom: 13px;
     position: relative;
-    left: 1080px;
-    bottom: 41px;
 }
 
+.ultimo-logo{
+    width: 120px;
+    position: relative;
+    left: 954px;
+    height: 40px;
+    float: left;
+    bottom: 52px;
+}
 
+p{
+    position: relative;
+    right: 260px;
+    padding-top: 5px;
+}
 /* ---------------------------------- FIM FOOTER-BOTTOM --------------------------------*/
+
+
+
+
